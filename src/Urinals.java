@@ -20,7 +20,7 @@ public class Urinals{
         }
         return true;
     }
-    int countUrinals(String str)
+    static int countUrinals(String str)
     {   int count=0;
         int len = str.length();
         if(!goodString(str))
@@ -41,7 +41,7 @@ public class Urinals{
 
     }
 
-    String getOutputFilename()
+    static String getOutputFilename()
     {
 
         String filename = "src/rule.txt";
